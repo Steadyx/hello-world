@@ -1,0 +1,117 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.container {
+  width: 900px;
+  margin: 100px auto;
+}
+.backimg {
+  height: 40vh;
+  width: 100%;
+  background: linear-gradient(to top, #1c5380 0%, #1c649e 50%, #236398 51%, #235986 71%, #1c5380 100%);
+  position: absolute;
+}
+.phones {
+  /*margin: 10% 0 0 10%;*/
+  float: left;
+  width: 450px;
+}
+.phones img{
+  width: 25em;
+}
+.middle-sect {
+  text-align: center;
+  float: right;
+  width: 450px;
+  padding-bottom: 2em;
+}
+.icon-img{
+  display: inline;
+  position: relative;
+}
+.icon-img img {
+  float: left;
+  width: 60%;
+  padding-right: 8%;
+}
+.login {
+  position: relative;
+  height: auto;
+  width: 4em;
+  background: linear-gradient(to bottom, #346c99 0%, #2e5f88 100%);
+  display: inline-block;
+  padding: .5em 1em  .5em 1em;
+  margin: 20px;
+  border-radius: 1.5%;
+  box-shadow: 0 0 10px rgba(41, 41, 41, 0.44);
+  cursor: pointer;
+  transition: 1s;
+
+}
+.login:hover {
+  background: linear-gradient(to bottom, #568bb6 0%, #4c7aa1 100%);
+
+}
+.login p{
+  margin: 0 auto;
+  color: rgb(218, 223, 227);
+  font-size: .8em;
+  margin-left: 1.5em;
+}
+.login img {
+  position: absolute;
+  left: 0;
+  width: 18%;
+  margin-left: 1em;
+}
+.section {
+  background: linear-gradient(to bottom, rgb(237, 237, 237) 0%, #ffffff 100%);
+  /*width: 20%;*/
+  padding:21px;
+  box-shadow: 0 0 15px rgba(43, 43, 43, 0.20);
+  border-radius: 2%;
+  text-align: left;
+  margin-top: 1.5em;
+
+}
+.section h1 {
+  color: #1c5380;
+}
+.section p{
+  font-size: 1.2em;
+}
+.bottom img {
+  display: inline;
+  margin: 15px;
+}
+.main-footer ul li {
+  display: inline;
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin: 1em;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.main-footer ul li a{
+  text-decoration: none;
+  transition: .5s ease;
+}
+.main-footer ul li a:hover{
+  color: rgb(24, 127, 154);
+}
+.main-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 2.5em;
+}
